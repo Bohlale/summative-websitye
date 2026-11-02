@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Bohlale Hoodies</title>
+    <meta name="description" content="Complete your Bohlale Hoodies order.">
+    <meta name="robots" content="noindex, follow, max-image-preview:large">
+    <meta name="theme-color" content="#e07a98">
+    <link rel="canonical" href="https://www.bohlalehoodies.co.za/checkout.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Bohlale Hoodies">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:title" content="Checkout | Bohlale Hoodies">
+    <meta property="og:description" content="Complete your Bohlale Hoodies order.">
+    <meta property="og:url" content="https://www.bohlalehoodies.co.za/checkout.html">
+    <meta property="og:image" content="https://www.bohlalehoodies.co.za/_images/hero-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="css_assets/mystyle.css">
+    
+</head>
+<body>
+    <header>
+        <img src="images/bohlale_logo.png" alt="Bohlale hoodies">
+        <div class="logo">
+            <h1>Bohlale Hoodies</h1>
+            <p>Premium Hoodies &amp; Jerseys</p>
+        </div>
+        <nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Shop</a></li><li><a href="inquiries.html">Enquiries</a></li><li><a href="contact.html">Contact</a></li><li><a href="cart.html">Cart</a></li></ul></nav>
+    </header>
+    <main>
+        <section id="checkout">
+            <h2>Checkout</h2>
+            <div id="order-summary"></div>
+            <form id="checkout-form" novalidate>
+                <div><label for="co-name">Full Name</label><input type="text" id="co-name" name="co-name"></div>
+                <div><label for="co-email">Email</label><input type="email" id="co-email" name="co-email"></div>
+                <div><label for="co-phone">Phone</label><input type="tel" id="co-phone" name="co-phone"></div>
+                <fieldset><legend>Delivery</legend>
+                    <label><input type="radio" name="delivery" value="courier" checked> Courier delivery</label>
+                    <label><input type="radio" name="delivery" value="collect"> Collect in-store</label>
+                </fieldset>
+                <div id="address-block">
+                    <div><label for="co-street">Street Address</label><input type="text" id="co-street" name="co-street"></div>
+                    <div><label for="co-city">City</label><input type="text" id="co-city" name="co-city"></div>
+                    <div><label for="co-postal">Postal Code</label><input type="text" id="co-postal" name="co-postal"></div>
+                </div>
+                <div id="collect-block"><div><label for="co-store">Collection Shop</label><select id="co-store" name="co-store"><option value="">-- Choose a shop --</option><option>Bohlale Hoodies Menlyn</option><option>Bohlale Hoodies Rosebank</option><option>Bohlale Hoodies Polokwane</option></select></div></div>
+                <fieldset><legend>Payment</legend>
+                    <label><input type="radio" name="payment" value="card" checked> Card</label>
+                    <label><input type="radio" name="payment" value="eft"> EFT</label>
+                </fieldset>
+                <div id="card-block">
+                    <div><label for="card-number">Card Number</label><input type="text" id="card-number" name="card-number" inputmode="numeric" autocomplete="cc-number"></div>
+                    <div><label for="card-expiry">Expiry (MM/YY)</label><input type="text" id="card-expiry" name="card-expiry" autocomplete="cc-exp"></div>
+                    <div><label for="card-cvv">CVV</label><input type="text" id="card-cvv" name="card-cvv" inputmode="numeric" autocomplete="cc-csc"></div>
+                </div>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+    <footer><nav aria-label="Footer navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Shop</a></li><li><a href="inquiries.html">Enquiries</a></li><li><a href="contact.html">Contact</a></li><li><a href="cart.html">Cart</a></li></ul></nav><p>Bohlale Hoodies shops: Menlyn (012 555 0134) | Rosebank (011 555 0167) | Polokwane (015 555 0189)</p><p>&copy; 2026 Bohlale Hoodies. All rights reserved.</p></footer>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
